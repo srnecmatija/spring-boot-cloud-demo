@@ -1,10 +1,10 @@
-package com.ibmix.springcloud.demo.greeting;
+package com.ibmix.springcloud.demo.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GreetingApplicationTests {
+class ConfigserverApplicationTests {
 
 	@Test
 	void contextLoads() {
