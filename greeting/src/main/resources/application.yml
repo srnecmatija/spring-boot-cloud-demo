@@ -1,3 +1,9 @@
 spring:
     application:
       name: greeting
+server:
+  port: 9090
+greeting: Hey
+greetings:
+  EN: Hello
+  ES: Hola
