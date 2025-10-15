@@ -1,9 +1,5 @@
 spring:
-    application:
-      name: greeting
-server:
-  port: 9090
-greeting: Hey
-greetings:
-  EN: Hello
-  ES: Hola
+  application:
+    name: greeting
+  config:
+    import: configserver:http://localhost:8888

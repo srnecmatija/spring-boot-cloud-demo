@@ -6,6 +6,6 @@ spring:
       server:
         git:
           uri: https://github.com/srnecmatija/spring-boot-cloud-demo
-          searchPaths: configuration
+          search-paths: configuration
 server:
   port: 8888
