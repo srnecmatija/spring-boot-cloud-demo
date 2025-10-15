@@ -1,6 +1,5 @@
 spring:
   application:
     name: name
-server:
-  port: 7070
-name: Spring Cloud
+  config:
+    import: configserver:http://localhost:8888
