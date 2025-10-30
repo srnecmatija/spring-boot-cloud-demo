@@ -12,7 +12,7 @@
 	<artifactId>web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>web</name>
-	<description>Name project for Spring Cloud</description>
+	<description>Web project for Spring Cloud</description>
 	<url/>
 	<licenses>
 		<license/>
