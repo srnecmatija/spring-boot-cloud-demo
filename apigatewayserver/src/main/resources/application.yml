@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: apigatewayserver
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              lower-case-service-id: true
+          routes:
+            - id: greetingservice-route
+              uri: lb://greeting
+              predicates:
+                - Method=GET
+            - id: nameservice-route
+              uri: lb://name
+              predicates:
+                - Method=GET
+            - id: webapp-route
+              uri: lb://web
+              predicates:
+                - Method=GET
+server:
+  port: 8080
